@@ -1,0 +1,153 @@
+
+/* Make all body text 660033 Make background bluegr.jpg
+ */
+ 
+body { 
+    font-size:24px; 
+    font-family:"Georgia", "Times New Roman";
+    color:#660033; 
+    background:url(bluegr.jpg); 
+    line-height:32px;
+    padding:2px;
+}
+
+
+/* Paragraphs justified except class "l" */
+
+p {text-align:justify; 
+
+}
+
+p.l {text-align:left;
+
+}
+
+/* Defines green text
+ */
+
+span.green {color=#009900;}
+
+/* Defines bold red text
+ */
+
+span.bred {color=#cc0000; font-weight:bold;
+}
+
+
+
+    
+/* Justify lists (except bib)  */ 
+ 
+li {text-align: justify; margin-left:163px;
+}
+
+
+li.bib {text-align: left; margin-left:163px;
+
+}
+ 
+
+    
+          
+
+/* Defines overall headings
+ */
+
+div.bighead {font-size: 48px; font-weight:medium; color:#cc0000;
+line-height: 96px; text-align:center;}
+ 
+ /* Defines red headings offset from navbar
+  */
+ 
+h1 {font: 32px Georgia, Times New Roman; color:#cc0000; font-weight:bold;
+line-height: 37px; }
+ 
+h2 {font: 24px Georgia, Times New Roman; color:#cc0000; font-weight:bold;
+line-height: 32px;}
+
+/* Defines red bold right-aligned text
+ 
+ */
+div.right {font: 24px Georgia, Times New Roman; color:#cc0000; font-weight:bold;
+line-height: 32px; text-align:right;
+
+}
+ 
+     
+ 
+ /* Defines Symbol font span
+  */
+ 
+span.symb {font-family: "Symbol", "Georgia", "Times New Roman";}
+ 
+/* Defines horizontal line 8px */
+
+hr { height:=8px;
+ color:#660033;
+     }
+
+/* Defines horizontal line */
+
+table.hor {
+    celpadding:0pt;
+    cellspacing:0pt;
+    width:100%;
+    background-color:#660033;
+    color:#99ccff;
+    text-align:center;
+}
+
+td.hor {
+    height:2px;
+}
+
+/* Defines navigation bar */
+ * 
+div.nav {
+    display:block;
+    padding:2px;
+    width:153px;
+    height:*;
+    margin-right:7px;
+    float:left;
+    background-color:#660033;
+    color:#99ccff;
+    text-align:center;
+}
+
+/* Defines undecorated links */
+
+a.pic {text-decoration: none;
+}
+
+a.bar {text-decoration: none;
+}
+
+a:link.bar {
+    color:#99ccff;
+}
+                                 
+
+a:visited.bar {
+    color:#99ccff;
+}
+
+a:active.bar {
+    color:#99ccff;
+}
+ 
+
+
+a:link.bib {
+    color:#cc0000;
+}
+                                 
+
+a:visited.bib {
+    color:#cc0000;
+}
+
+a:active.bar {
+    color:#cc0000;
+}
+ 
